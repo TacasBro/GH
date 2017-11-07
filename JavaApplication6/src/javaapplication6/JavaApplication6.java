@@ -20,10 +20,11 @@ public class JavaApplication6 {
         fileName = sc.nextLine();
         FileReader fr= null;
         int suma = 0;
-//        String daw1 = "C:\\Users\\student\\Desktop/heh.txt";
+        final String dir = System.getProperty("user.dir");
+        String path = dir+ "\\src\\javaapplication6\\pliki/";
      try 
      {
-        fr = new FileReader(fileName);
+        fr = new FileReader(path+fileName);
         BufferedReader br = new BufferedReader(fr);
         String currentLine = "";
         
@@ -33,12 +34,17 @@ public class JavaApplication6 {
                 }
         
      } 
+     catch (FileNotFoundException e)
+     {
+         System.out.println("NI MA TAKIEGO");
+     }
      catch (Exception e) 
      {
            System.out.println("BŁĄD PRZY OTWIERANIU PLIKU!");
      }
      
-     System.out.print(suma);
+     
+     System.out.println(suma);
 
     }
 }

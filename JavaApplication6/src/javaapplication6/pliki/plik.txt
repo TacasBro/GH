@@ -1,3 +1,5 @@
-Podaj nazwe pliku
+﻿Podaj nazwe pliku
+
 xd
+
 BŁĄD PRZY OTWIERANIU PLIKU!
