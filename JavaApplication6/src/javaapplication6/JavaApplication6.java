@@ -40,5 +40,5 @@ public class JavaApplication6 {
      
      System.out.print(suma);
 
-    
+    }
 }
