@@ -12,6 +12,7 @@ import javaapplication6.CountWords;
 
 public class JavaApplication6 {
 
+
     public static void main(String[] args){
         System.out.println("Podaj nazwe pliku");
         String fileName = "";
@@ -39,6 +40,5 @@ public class JavaApplication6 {
      
      System.out.print(suma);
 
-    }
     
 }
